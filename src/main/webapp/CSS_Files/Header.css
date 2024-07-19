@@ -1,0 +1,39 @@
+@charset "UTF-8";
+header{
+    background-color: white;
+    margin: 20px;
+}
+#flex-container{
+    display: flex;
+}
+.leftheader{
+    flex: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.leftheader img{
+    height: 70px;
+}
+.rightheader{
+    flex: 60%;
+    align-items: center;
+    text-align: center;
+}
+.rightheader ul{
+    list-style-type: none;
+    text-align: end;
+}
+.rightheader li{
+    display: inline-block;
+    padding: 15px;
+}
+.rightheader a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600 ;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

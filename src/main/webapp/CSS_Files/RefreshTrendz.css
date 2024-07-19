@@ -1,0 +1,224 @@
+@charset "UTF-8";
+header{
+    background-color: white;
+}
+#flex-container{
+    display: flex;
+}
+.leftheader{
+    flex: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.leftheader img{
+    height: 70px;
+}
+.rightheader{
+    flex: 60%;
+    align-items: center;
+    text-align: center;
+}
+
+.rightheader ul{
+    list-style-type: none;
+}
+.rightheader li{
+    display: inline-block;
+    padding: 15px;
+}
+.rightheader a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600 ;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+#banner1{
+    background-image: url('../Assets/Banner1.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#subBanner1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+} 
+#subBanner1 h1{
+    font-size: 70px;
+    margin: 35px 160px 0px 35px;
+    padding: 60px 60px 0px 0px;
+    width: 450px;
+}
+#subBanner1 p{
+    width: 570px;
+    height: 100px;
+    margin: 10px 35px 30px 35px;
+    padding: 0px 60px 0px 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 47, 47);
+}
+#subBanner1 button{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    border-radius: 0;
+    width: 200px;
+    margin: 0px 465px 0px 0px;
+    font-size: 20px;
+}
+#subBanner1 button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#features{
+    height: 400px;
+    margin: 100px;
+}
+.shopHeading{
+    font-weight: 700;
+    text-align: center;
+    font-size: 60px;
+}
+hr{
+    width: 50px;
+    border: 3px solid #f7444e;
+}
+.shop{
+    text-align: center;    
+    background-color: #002c3e;
+    color: white;
+    margin: 30px;
+    padding: 50px;
+    
+}
+h5{
+    margin-top: 5px;
+    font-weight: 700; 
+    font-size: 25px; 
+    padding-bottom: 2px;
+    margin-bottom: 2%;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.shop > img{
+    height: 80px;
+    width: 80px;
+}
+#flex-container2{
+    display: flex;
+}
+.shop p{
+    margin-top: 0; 
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(213, 216, 218);
+    letter-spacing: 1.5px;
+    margin: 0px;
+}
+#banner2{
+    background-image: url('../Assets/Banner2.jpg');
+    height: 550px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#flex-container3{
+    display: flex;
+    flex-direction: column;
+}
+#flex-container3 h1{
+    color: #002c3e;
+    font-size: 65px;
+    margin: 35px 35px 0px 35px;
+    padding: 60px 60px 0px 60px;
+}
+#flex-container3 p{
+    width: 570px;
+    height: 100px;
+    margin: 10px 35px 30px 35px;
+    padding: 0px 60px 0px 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 47, 47);
+}
+#flex-container3 button{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    border-radius: 0;
+    width: 200px;
+    margin: 0px 35px 0px 170px;
+    font-size: 20px;
+}
+#flex-container3 button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#products{
+    margin: 90px;
+}
+#products h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 60px;
+}
+#products button{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    border-radius: 0;
+    width: 250px;
+    margin: 0px 35px 0px 530px;
+    font-size: 20px;
+}
+#products button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#banner3{
+    background-color: gainsboro;
+    height: 450px;
+    display: flex;
+}
+#banner3 img{
+    height: 70px;
+}
+#banner3 > div{
+    padding: 40px;
+    margin: 10px 50px 0px 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#banner3 ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+.banner3 li{
+    display: inline-block;
+    padding: 15px;
+} 
+#banner3 a{
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1.5px;   
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(209, 209, 209);
+    padding: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
